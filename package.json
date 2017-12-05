@@ -1,0 +1,29 @@
+{
+  "name": "libraconverter",
+  "version": "0.1.0",
+  "description": "Convertidor de libras a kilos y viceversa",
+  "main": "dist/src/converter.js",
+  "scripts": {
+    "build": "babel src -d dist/src",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jose1894/libraconverter.git"
+  },
+  "keywords": [
+    "Libras",
+    "Kilos",
+    "Peso",
+    "convertidor"
+  ],
+  "author": "José Guerra <jose1894@gmail.com> (https//twitter.com/jose1894)",
+  "license": "MIT",
+  "homepage": "https://github.com/jose1894/libraconverter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  }
+}
