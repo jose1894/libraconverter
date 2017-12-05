@@ -2,7 +2,7 @@
 
 Es un convertidor de kilos a libras y viceversa.
 
-# Descripción del Idioma
+# Descripción
 
 - Puede convertir cantidades de kilos a libras
 - Puede convertir cantidades de libras a kilos
@@ -15,7 +15,7 @@ Es un convertidor de kilos a libras y viceversa.
 npm install libraconverter
 ```
 
-#Uso
+# Uso
 
 ```
 import libraconverter from 'libraconverter'
@@ -31,6 +31,6 @@ converter( 2.5, "l2k") // 1.1339822735890994
 
 - [José Guerra](https://twitter.com/@jose1894)
 
-#Licencia
+# Licencia
 
 [MIT](https://opensource.org/licenses/MIT)
